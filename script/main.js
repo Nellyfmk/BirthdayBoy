@@ -176,17 +176,6 @@ const animationTimeline = () => {
         0.2,
         "+=1.5"
     )
-    .staggerFromTo(
-        ".baloons img",
-        2.5, {
-            opacity: 0.9,
-            y: 1400,
-        }, {
-            opacity: 1,
-            y: -1000,
-        },
-        0.2
-    )
     .from(
         ".profile-picture",
         0.5, {
@@ -197,12 +186,6 @@ const animationTimeline = () => {
             rotationZ: -45,
         },
         "-=2"
-    )
-    .from(".hat", 0.5, {
-        x: -100,
-        y: 350,
-        rotation: -180,
-        opacity: 0,
     })
     .staggerFrom(
         ".wish-hbd span",
